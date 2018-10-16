@@ -1,0 +1,74 @@
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="index.css" type="text/css">
+	
+</head>
+
+<body background="images/snake.jpg" width="1000" height="1000" no-repeat>
+
+	<div id="wrapper">
+	
+		<div id="header">
+			<input type="image" name="logo" src="images/got.png" id="logo" width="350" height="250" />
+		</div>
+
+		<div id="uppers">
+			<form action="select">
+				<select name="level">
+					<option value="easy">Easy</option>
+					<option value="medium">Medium</option>
+					<option value="hard">Hard</option>		
+				</select>
+				<input type="text" name="level" value="Enter your chosen level here" id="q" />
+				<input type="image" name="s" src="images/search.gif" id="s" />
+			</form>
+		</div>
+
+		<div id="nav"><div>
+			<ul>
+				<li><a href="index.html">HOME</a> &nbsp;|&nbsp;</li>
+				<li><a href="snake.html">GAMES</a> &nbsp;|&nbsp;</li>
+				<li><a href="contact.html">CONTACT US</a> &nbsp;|&nbsp;</li>
+				<li><a href="about.html">ABOUT US</a></li>
+			</ul>
+		</div></div>
+
+		<div id="body">
+			<h2><em>Message us!</em></h2>
+			
+    <br>
+    <br>
+			<form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+    <br>
+    <br>
+    <br>
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <br>
+    <br>
+    <br>
+    
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+	
+	<br>
+	<br>
+    <br>
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="width:500px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>

@@ -1,0 +1,184 @@
+html, body, ul, li, h1, h2, h3, h4 {
+	margin: 0px;
+	padding: 0px;
+	color: #DBDBDB;
+	list-style: none;
+}
+p {
+	margin: 0.5em 0px;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	color: #eee;
+	text-decoration: underline;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.more {
+	text-align: right;
+}
+.clear {
+	clear: both;
+}
+
+body {
+	font: 16px times new roman, sans-serif;
+}
+
+#wrapper {
+	margin:auto;
+	position:relative;
+	text-align:left;
+	width: 2000px;
+}
+
+#header {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#header h1 {
+	height: 200px;
+	width: 282px;
+	margin: 0;
+	padding: 10;
+	color: #fff;
+	line-height: 1;
+}
+#header h1 em {
+	display: block;
+	padding: 23px 0 0 70px;
+	margin: 0px;
+	font-weight: heavy;
+	font-size: 45px;
+	font-family: "Times new roman", serif;
+}
+#header h1 strong {
+	display: block;
+	margin: 0px;
+	padding: 0px 0px 0px 90px;
+	font-weight: normal;
+	font-size: 15px;
+	font-family: verdana, arial, sans-serif;
+}
+
+#uppers {
+	position: absolute;
+	top: 25px;
+	left: 270px;
+	padding-left: 100px;
+	z-index: 15;
+}
+#nav-top li {
+	display: inline;
+}
+
+#nav {
+	position: absolute;
+	top: 66px;
+	left: 270px;
+	width: 580px;
+	text-align: center;
+	z-index: 15;
+}
+#nav div {
+	padding: 0 10px;
+}
+#nav ul {
+	padding: 10px 0 10px 0px;
+}
+#nav li {
+	display: inline;
+}
+#nav a {
+	font-weight: normal;
+}
+
+#body {
+	position: relative;
+	z-index: 10;
+	margin-left: 400px;
+	padding-top: 130px;
+	width: 500px;
+}
+
+#body h2 {
+	font-weight: normal;
+	font-size: 15px;
+}
+
+#body h2 em {
+	font-size: 50px;
+	font-family: serif;
+}
+
+#black-tl { width: 100%; background: black top left url(images/black_tl.gif) no-repeat; }
+#black-tr { width: 100%; background: top right url(images/black_tr.gif) no-repeat; }
+#black-bl { width: 100%; background: bottom left url(images/black_bl.gif) no-repeat; }
+#black-br { width: 100%; background: bottom right url(images/black_br.gif) no-repeat; }
+
+#black-tl {
+	margin-left: 300px;
+	margin-top: 10px;
+	width: 700px;
+	position: relative;
+}
+#black-bl {
+	padding: 20px 20px 10px 20px;
+	position: relative;
+}
+
+.black-box {
+	float: left;
+	width: 200px;
+	margin-right: 20px;
+	margin-left: 0px;
+}
+.black-box h2 {
+	font-size: 13px;
+	font-weight: normal;
+}
+.black-box h2 em {
+	font-size: 2px;
+	font-family: serif;
+}
+.black-box .more {
+	color: red;
+}
+
+#footer {
+	margin-left: 400px;
+	margin-top: 10px;
+	width: 550px;
+}
+
+#footer h2 {
+	font-size: 13px;
+	font-weight: normal;
+}
+#footer h2 em {
+	font-size: 22px;
+	font-family: serif;
+}
+#tips {
+	float: left;
+	width: 500px;
+}
+#copyright {
+	margin-left: 500px;
+}
+#s {
+	position: relative;
+	top: 0.4em;
+}
+#submit {
+	position: relative;
+	top: 0.2em;
+}
